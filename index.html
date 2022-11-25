@@ -6,28 +6,33 @@
     <title>Wallpaper</title>
 </head>
 <body>
-    <div id="menu" class="names">
-        <div class="name1">
-            <a href="#popular" class="anames">Популярное</a>
-        </div>
-        <div class="name1">
-            <a href="#black_white" class="anames">Чёрно-белое</a>
-        </div>
-        <div class="name1">
-            <a href="#north_lights" class="anames">Северное сияние</a>
-        </div>
-        <div class="name1">
-            <a href="#winter" class="anames">Зима</a>
-        </div>
-        <div class="name1">
-            <a href="#fire" class="anames">Фейерверки</a>
-        </div>
-        <div class="name1">
-            <a href="#flower" class="anames">Цветы</a>
-        </div>
-    </div>
+    <div id="menu" class="names"></div>
+    <div id="cardsContainer"></div>
 
 
+    <template id="tmpl-menu">
+        <div class="name1">
+            <a href="#${title}" class="anames">${title-rus}</a>
+        </div>
+    </template>
+
+    <template id="tmpl-cards">
+        <div class="cards">
+            <h1 id="${title}" class="heading">${title-rus}</h1>
+        </div>
+    </template>
+
+    <template id="tmpl-card">
+        <div id="card" class="card" style="background-image: url('{image}')">
+            <a href="{image}" download>
+                <div  class="download">
+                    Скачать           
+                </div>
+            </a>
+        </div>
+    </template>
+
+    <!--
     <div class="cards">
         <h1 id="popular" class="heading">Популярное</h1>
         <div class="card" style="background-image: url('img/1.jpg')">
@@ -549,7 +554,9 @@
                 </div>
             </a>
         </div>
-    </div>   
+    </div>  
+-->
+    <script src="js/main.js"></script>
 </body>
 </html>
 
