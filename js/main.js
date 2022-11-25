@@ -11,6 +11,9 @@ let wallpaper = [
             "img/7.jpg",
             "img/8.jpg",
             "img/9.jpg",
+            "img/10.jpg",
+            "img/11.jpg",
+            "img/12.jpg",
             
         ]
     },
@@ -26,6 +29,9 @@ let wallpaper = [
             "img/BlackWhite7.jpg",
             "img/BlackWhite8.jpg",
             "img/BlackWhite9.jpg",
+            "img/BlackWhite10.jpg",
+            "img/BlackWhite11.jpg",
+            "img/BlackWhite12.jpg",
             
         ]
     },
@@ -41,6 +47,9 @@ let wallpaper = [
             "img/Shine7.jpg",
             "img/Shine8.jpg",
             "img/Shine9.jpg",
+            "img/Shine10.jpg",
+            "img/Shine11.jpg",
+            "img/Shine12.jpg",
             
         ]
     },
@@ -56,6 +65,9 @@ let wallpaper = [
             "img/Winter7.jpg",
             "img/Winter8.jpg",
             "img/Winter9.jpg",
+            "img/Winter10.jpg",
+            "img/Winter11.jpg",
+            "img/Winter12.jpg",
             
         ]
     },
@@ -71,6 +83,9 @@ let wallpaper = [
             "img/Fire7.jpeg",
             "img/Fire8.png",
             "img/Fire9.jpg",
+            "img/Fire10.jpg",
+            "img/Fire11.jpg",
+            "img/Fire12.jpg",
             
         ]
     },
@@ -86,6 +101,9 @@ let wallpaper = [
             "img/Flower7.jpg",
             "img/Flower8.jpg",
             "img/Flower9.jpg",
+            "img/Flower10.jpg",
+            "img/Flower11.jpg",
+            "img/Flower12.jpg",
         ]
     },
   ]
